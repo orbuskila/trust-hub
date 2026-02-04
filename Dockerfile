@@ -1,4 +1,4 @@
-ARG NODE_IMAGE=node:latest
+ARG NODE_IMAGE=node:25.6.0-bookworm
 
 FROM $NODE_IMAGE AS base
 RUN apk --no-cache add dumb-init
